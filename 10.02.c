@@ -5,25 +5,25 @@
 
 
 
-
-
-int DigitSum(int num)
-{
-
-	while (num > 9)
-	{
-		return num % 10 + DigitSum(num / 10);
-	}
-	return num;
-}
-int main()
-{
-	int num = 0;
-	scanf("%d", &num);
-	int ret = DigitSum(num);
-	printf("%d", ret);
-	return 0;
-}
+//
+//
+//int DigitSum(int num)
+//{
+//
+//	while (num > 9)
+//	{
+//		return num % 10 + DigitSum(num / 10);
+//	}
+//	return num;
+//}
+//int main()
+//{
+//	int num = 0;
+//	scanf("%d", &num);
+//	int ret = DigitSum(num);
+//	printf("%d", ret);
+//	return 0;
+//}
 
 
 
