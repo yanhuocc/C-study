@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1.c" />
     <ClCompile Include="10.02.c" />
     <ClCompile Include="11.11.c" />
     <ClCompile Include="9.19-2.c" />
