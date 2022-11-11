@@ -105,63 +105,63 @@
 #include<time.h>
 #include<stdlib.h>
 
-//void mune()
-//{
-//	printf("***********************\n");
-//	printf("*******1.开始游戏******\n");
-//	printf("*******2.退出游戏******\n");
-//	printf("***********************\n");
-//}
-//void game()
-//{
-//	int n = 0;
-//	
-//	int num = rand()%100+1;
-//	//printf("%d\n", num);
-//
-//	do
-//	{
-//
-//		printf("请输入你猜的数字：>");
-//		scanf("%d", &n);
-//		if (n > num)
-//		{
-//			printf("你的数字大了\n");
-//		}
-//		else if (n < num)
-//		{
-//			printf("你的数字小了\n");
-//		}
-//		else
-//		{
-//			printf("恭喜你，猜对了\n");
-//		}
-//	} while (n != num);
-//}
-//int main()
-//{
-//	int input;
-//	srand((unsigned int)time(NULL));
-//	do
-//	{
-//		mune();
-//		printf("请选择：>");
-//		scanf("%d", &input);
-//		switch(input)
-//		{
-//		case 1:
-//			game();
-//			break;
-//		case 2:
-//			printf("退出游戏\n");
-//			break;
-//		default:
-//			printf("输入错误\n");
-//			break;
-//		}
-//	} while (input!=2);
-//	return 0;
-//}
+void mune()
+{
+	printf("***********************\n");
+	printf("*******1.开始游戏******\n");
+	printf("*******2.退出游戏******\n");
+	printf("***********************\n");
+}
+void game()
+{
+	int n = 0;
+
+	int num = rand() % 100 + 1;
+	//printf("%d\n", num);
+
+	do
+	{
+
+		printf("请输入你猜的数字：>");
+		scanf("%d", &n);
+		if (n > num)
+		{
+			printf("你的数字大了\n");
+		}
+		else if (n < num)
+		{
+			printf("你的数字小了\n");
+		}
+		else
+		{
+			printf("恭喜你，猜对了\n");
+		}
+	} while (n != num);
+}
+int main()
+{
+	int input;
+	srand((unsigned int)time(NULL));
+	do
+	{
+		mune();
+		printf("请选择：>");
+		scanf("%d", &input);
+		switch (input)
+		{
+		case 1:
+			game();
+			break;
+		case 2:
+			printf("退出游戏\n");
+			break;
+		default:
+			printf("输入错误\n");
+			break;
+		}
+	} while (input != 2);
+	return 0;
+}
 
 
 //int main()
